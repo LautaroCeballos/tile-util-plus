@@ -1,19 +1,19 @@
-# cover All Tiles
+# cubrir todas las teselas
 
-Cover all of the tiles of one image with a different tile.
+Cubre todas las teselas de una imagen con otra tesela.
 
 ```sig
 tileUtil.coverAllTiles(null, null)
 ```
 
-## Parameters
+## Parámetros
 
-* **tileKind**: the image of the tiles in the tilemap to cover with another tile.
-* **cover**: the image of the tile to cover with.
+* **tileKind**: la imagen de las teselas del mapa que se van a cubrir.
+* **cover**: la imagen de la tesela que se usa para cubrir.
 
-## Example
+## Ejemplo
 
-Set a checkerboard tilemap with brown and white tiles into the game scene. When button `A` is pressed, cover the white tiles with the blac tiles and cover the brown tiles with transparent tiles.
+Pon en la escena un mapa de teselas con un tablero de ajedrez de teselas marrones y blancas. Al presionar el botón `A`, cubre las teselas blancas con teselas negras y las marrones con teselas transparentes.
 
 ```blocks
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {

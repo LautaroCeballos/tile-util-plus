@@ -1,19 +1,19 @@
-# cover Tile
+# cubrir tesela
 
-Cover the tile at a certain location in the tilemap with another tile.
+Cubre la tesela de una posición del mapa con otra tesela.
 
 ```sig
 tileUtil.coverTile(null, null)
 ```
 
-## Parameters
+## Parámetros
 
-* **location**: the location of the tile to cover in the tilemap.
-* **cover**: the image of the tile to cover with.
+* **location**: la posición de la tesela que se va a cubrir.
+* **cover**: la imagen de la tesela que se usa para cubrir.
 
-## Example
+## Ejemplo
 
-Set a checkerboard tilemap with brown and white tiles into the game scene. When button `A` is pressed, cover the white tiles with the blac tiles and cover the brown tiles with transparent tiles.
+Pon en la escena un mapa de teselas con un tablero de ajedrez de teselas marrones y blancas. Al presionar el botón `A`, cubre las teselas blancas con teselas negras y las marrones con teselas transparentes.
 
 ```blocks
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {

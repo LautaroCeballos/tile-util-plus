@@ -1,22 +1,22 @@
-# for each Tile in Map
+# para cada tesela
 
-Loops over every location in a tilemap and runs some code at each tile.
+Recorre cada posición del mapa de teselas y ejecuta el código en cada tesela.
 
 ```sig
 tileUtil.forEachTileInMap(tileUtil.currentTilemap(), function (column, row, location) {
 })
 ```
 
-## Parameters
+## Parámetros
 
-* **tileMap**: the tilemap to loop over.
-* **column**: the column of the current location in the map.
-* **row**: the row of the current location in the map.
-* **location**: the current location in the map.
+* **tilemap**: el mapa de teselas que se recorre.
+* **column**: la columna de la posición actual.
+* **row**: la fila de la posición actual.
+* **location**: la posición actual del mapa.
 
-## Example
+## Ejemplo
 
-This example takes a simple tilemap where the walls are marked with a single tile and automatically fills in the appropriate wall tile for each location based on the surrounding tiles
+Este ejemplo toma un mapa sencillo donde las paredes están marcadas con una sola tesela y completa automáticamente la tesela de pared adecuada en cada posición según las teselas de alrededor.
 
 ```blocks
 tiles.setCurrentTilemap(tilemap`level1`)

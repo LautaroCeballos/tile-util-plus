@@ -1,18 +1,18 @@
-# center Camera On Tile
+# centrar cámara en
 
-Center the screen camera view at a tile location in the tilemap.
+Centra la vista de la cámara en una posición del mapa de teselas.
 
 ```sig
-tileUtil.centerCameraOnTile(tiles.getTileLocation(0 0))
+tileUtil.centerCameraOnTile(tiles.getTileLocation(0, 0))
 ```
 
-## Parameters
+## Parámetros
 
-* **location**: a tile location in the tilemap to center the screen camera view at.
+* **location**: una posición del mapa de teselas donde se centra la cámara.
 
-## Example
+## Ejemplo
 
-Create 16 x 16 tilemap. Center the screen camera at a random tile location every second.
+Crea un mapa de teselas de 16 x 16. Centra la cámara en una posición al azar cada segundo.
 
 ```blocks
 tiles.setCurrentTilemap(tilemap`level1`)
@@ -21,7 +21,7 @@ game.onUpdateInterval(1000, function () {
 })
 ```
 
-## See also
+## Ver también
 
 [center camera at](/reference/scene/center-camera-at)
 

@@ -16,8 +16,9 @@ También puedes probarla desde el editor de MakeCode con **Importar → Importar
 
 ## Bloques
 
-La extensión mantiene todos los bloques de **Tile Util** (mapas de teselas, teselas,
-eventos, conexiones y cámara) y agrega el grupo **Seguidor de Caminos** al final de la
+La extensión incluye todos los bloques de **Tile Util**, con sus etiquetas traducidas al
+español, repartidos en los grupos **Mapas de teselas**, **Teselas**, **Eventos**,
+**Conexiones** y **Cámara**. Además agrega el grupo **Seguidor de Caminos** al final de la
 categoría:
 
 ### `sprite [mySprite] sigue a [otherSprite] en el mapa de teselas con velocidad (100)`

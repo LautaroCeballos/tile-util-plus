@@ -1,19 +1,19 @@
-# set Walls
+# poner pared en todas
 
-Turn walls on or off for all tiles of a given kind.
+Activa o desactiva las paredes de todas las teselas de un tipo.
 
 ```sig
 tileUtil.setWalls(null, true)
 ```
 
-## Parameters
+## Parámetros
 
-* **tile**: the image of the tile to set walls on
-* **on**: true to turn walls on and false to turn them off
+* **tile**: la imagen de las teselas donde se activan las paredes.
+* **on**: `true` para activar las paredes y `false` para desactivarlas.
 
-## Example
+## Ejemplo
 
-This example turns on walls for all tiles of a given type when the `A` button is pressed.
+Este ejemplo activa las paredes de todas las teselas de un tipo al presionar el botón `A`.
 
 ```blocks
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {

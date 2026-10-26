@@ -1,20 +1,20 @@
-# load Connected Map
+# cargar mapa conectado
 
-Load a tilemap connected to the current tilemap.
+Carga un mapa de teselas conectado al mapa actual.
 
 ```sig
 tileUtil.loadConnectedMap(MapConnectionKind.Door1)
 ```
 
-If the connection identifier connects a another tilemap to the current tilemap in the scene, the current tilemap is unloaded and the connected one is set as the current tilemap.
+Si el identificador de conexión conecta otro mapa con el mapa actual de la escena, el mapa actual se descarga y el conectado pasa a ser el mapa actual.
 
-## Parameters
+## Parámetros
 
-* **connectionId**: the identifer for the tilemap connection, like: `Door1` or `Door2`.
+* **connectionId**: el identificador de la conexión, como `Door1` o `Door2`.
 
-## Example
+## Ejemplo
 
-Create 3 different tilemaps. Connect the 3 tilemaps with 2 connections. Use buttons `A` and `B` to load the connected tilemaps for each connection identifier.
+Crea 3 mapas de teselas distintos. Conéctalos con 2 conexiones. Usa los botones `A` y `B` para cargar los mapas conectados según el identificador de conexión.
 
 ```blocks
 controller.B.onEvent(ControllerButtonEvent.Pressed, function () {

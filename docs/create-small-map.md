@@ -1,24 +1,24 @@
-# create Small Map
+# crear mapa pequeño
 
-Create a tilemap with smaller 8 x 8 tiles.
+Crea un mapa de teselas con teselas más pequeñas, de 8 x 8.
 
 ```sig
 tileUtil.createSmallMap(null)
 ```
 
-A tile map is returned with a smaller tile size, 8 rows by 8 columns. When the tilemap designed in the tilemap editor, any new tiles are automatically sized to 8 x 8. The default map size is set to fit the default screen dimensions.
+Devuelve un mapa de teselas con teselas de 8 x 8. Al diseñar el mapa en el editor, las teselas nuevas se crean automáticamente con ese tamaño. El tamaño inicial del mapa se ajusta a las dimensiones de la pantalla.
 
-## Parameters
+## Parámetros
 
-* **tilemap**: a base tilemap object.
+* **tilemap**: un mapa de teselas base.
 
-## Returns
+## Devuelve
 
-* a tilemap that has 8 x 8 tiles and is sized to fit the default screen dimensions.
+* un mapa de teselas de 8 x 8 ajustado a las dimensiones de la pantalla.
 
-## Example
+## Ejemplo
 
-Create two tilemaps. Make one as a standard tilemap and the other as a small tilemap. Set the standard tilemap into the game scene. Connect the two tilemaps and switch them in and out of the game scene by pressing button `A`.
+Crea dos mapas de teselas: uno normal y otro pequeño. Pon el normal en la escena, conecta los dos mapas y cámbialos al presionar el botón `A`.
 
 ```blocks
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {

@@ -1,19 +1,19 @@
-# Get Tile Image
+# imagen de la tesela
 
-Gets the tile image at a location in a tilemap.
+Obtiene la imagen de la tesela de una posición del mapa.
 
 ```sig
 tileUtil.getTileImage(null, null)
 ```
 
-## Parameters
+## Parámetros
 
-* **tilemap**: the tilemap to check the location in
-* **location**: the location to get the tile image from
+* **tilemap**: el mapa de teselas donde está la posición.
+* **location**: la posición de la que se obtiene la imagen.
 
-## Example
+## Ejemplo
 
-Set a checkerboard tilemap with brown and white tiles into the game scene. When button `A` is pressed, chooses a random tile and spreads it to adjacent tiles
+Pon en la escena un mapa de teselas con un tablero de ajedrez de teselas marrones y blancas. Al presionar el botón `A`, elige una tesela al azar y la copia en las teselas vecinas.
 
 ```blocks
 let tileImage: Image;

@@ -1,21 +1,21 @@
-# set Wall At
+# poner pared en
 
-Sets whether a wall is on or off at a given location in a tilemap.
+Activa o desactiva la pared de una posición en un mapa de teselas.
 
 
 ```sig
 tileUtil.setWallAt(null, null, true)
 ```
 
-## Parameters
+## Parámetros
 
-* **tilemap**: the tilemap to set the wall in
-* **location**: the location to set the wall at
-* **on**: whether or not the wall is on
+* **tilemap**: el mapa de teselas donde se pone la pared.
+* **location**: la posición donde se pone la pared.
+* **on**: si la pared queda activada o desactivada.
 
-## Example
+## Ejemplo
 
-This example turns on walls for all tiles of a given type when the `A` button is pressed.
+Este ejemplo activa las paredes de todas las teselas de un tipo al presionar el botón `A`.
 
 ```blocks
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {

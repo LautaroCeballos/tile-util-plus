@@ -1,23 +1,23 @@
-# get Connected Map
+# mapa de teselas conectado
 
-Get the tilemap connected to the given tilemap using a connection identifier.
+Obtiene el mapa de teselas conectado al mapa indicado usando un identificador de conexión.
 
 ```sig
 tileUtil.getConnectedMap(null, MapConnectionKind.Door1)
 ```
 
-## Parameters
+## Parámetros
 
-* **map**: the tilemap that is connected to another map.
-* **connectionId**: the identifer for the connected tilemap, like: `Door1` or `Door2`.
+* **map**: el mapa de teselas que está conectado a otro.
+* **connectionId**: el identificador de la conexión, como `Door1` o `Door2`.
 
-## Returns
+## Devuelve
 
-* the tilemap that is connected to the map given using the identifier in **connectionId**.
+* el mapa de teselas conectado al mapa indicado por **connectionId**.
 
-## Example
+## Ejemplo
 
-Create 2 different tilemaps. Connect the 2 tilemaps with a connections identifier. Use buttons `A` to load the tilemap connected to the current tilemap.
+Crea 2 mapas de teselas distintos. Conéctalos con un identificador de conexión. Usa el botón `A` para cargar el mapa conectado al mapa actual.
 
 ```blocks
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {

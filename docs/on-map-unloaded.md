@@ -1,21 +1,21 @@
-# on Map Unloaded
+# cuando se descarga el mapa de teselas
 
-Run some code when a tilemap is unloaded from the game scene.
+Ejecuta código cuando un mapa de teselas se descarga de la escena.
 
 ```sig
 tileUtil.onMapUnloaded(function (null) {})
 ```
 
-This event is triggered when a tilemap is unloaded from the scene. The tilemap object is given as a parameter for use by the code inside the event.
+Este evento se activa cuando un mapa de teselas se descarga de la escena. El objeto del mapa se pasa como parámetro al código del evento.
 
-## Parameters
+## Parámetros
 
-* **cb**: the event handler to run code when a tilemap is unloaded from the game scene.
->* **tilemap**: the tilemap that was just unloaded.
+* **cb**: el código que se ejecuta cuando se descarga un mapa de teselas.
+>* **tilemap**: el mapa de teselas que se acaba de descargar.
 
-## Example
+## Ejemplo
 
-Create a sprite on the screen to use as an anchor for messages. Using the controller, load a tilemap into the scene when button `A` is pressed. Use button `B` to unload the tilemap. Display a sprite message when the tilemap is loaded or unloaded.
+Crea un sprite en pantalla para mostrar mensajes. Con el controlador, carga un mapa de teselas en la escena al presionar el botón `A` y descárgalo con el botón `B`. Muestra un mensaje cuando el mapa se carga o se descarga.
 
 ```blocks
 let mySprite: Sprite = null

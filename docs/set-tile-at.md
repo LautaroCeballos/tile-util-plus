@@ -1,20 +1,20 @@
-# set Tile At
+# poner tesela en
 
-Sets the tile at a given location in a tilemap.
+Pone la tesela de una posición en un mapa de teselas.
 
 ```sig
 tileUtil.setTileAt(null, null, null)
 ```
 
-## Parameters
+## Parámetros
 
-* **tilemap**: the tilemap to set the tile in
-* **location**: the location to set the tile at
-* **tile**: the image of the tile to set
+* **tilemap**: el mapa de teselas donde se pone la tesela.
+* **location**: la posición donde se pone la tesela.
+* **tile**: la imagen de la tesela que se pone.
 
-## Example
+## Ejemplo
 
-Set a checkerboard tilemap with brown and white tiles into the game scene. When button `A` is pressed, cover the white tiles with the blac tiles and cover the brown tiles with transparent tiles.
+Pon en la escena un mapa de teselas con un tablero de ajedrez de teselas marrones y blancas. Al presionar el botón `A`, cubre las teselas blancas con teselas negras y las marrones con teselas transparentes.
 
 ```blocks
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {

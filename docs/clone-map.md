@@ -1,22 +1,22 @@
-# clone Map
+# clonar
 
-Clone a tilemap to make a new copy of it.
+Clona un mapa de teselas para hacer una copia nueva.
 
 ```sig
 tileUtil.cloneMap(null)
 ```
 
-## Parameters
+## Parámetros
 
-* **map**: the tilemap to clone from.
+* **map**: el mapa de teselas que se clona.
 
-## Returns
+## Devuelve
 
-* a tilemap that is a new copy of the the original tilemap.
+* un mapa de teselas que es una copia nueva del original.
 
-## Example
+## Ejemplo
 
-Create checkerboard tilemap. Make a copy of the tilemap by cloning it. Set the original tilemap into the game scene and change its brown tiles into red tiles. Connect the original tilemap and the cloned tilemap. Switch between the two maps when button `A` is pressed.
+Crea un mapa de teselas con un tablero de ajedrez. Haz una copia del mapa clonándolo. Pon el mapa original en la escena y cambia sus teselas marrones por teselas rojas. Conecta el mapa original con el clonado y cambia de mapa al presionar el botón `A`.
 
 ```blocks
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {

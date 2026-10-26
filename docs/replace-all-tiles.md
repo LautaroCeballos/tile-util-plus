@@ -1,19 +1,19 @@
-# replace All Tiles
+# reemplazar todas las teselas
 
-Replace all of the tiles of one image to a different tile.
+Reemplaza todas las teselas de una imagen por otra tesela.
 
 ```sig
 tileUtil.replaceAllTiles(null, null)
 ```
 
-## Parameters
+## Parámetros
 
-* **from**: the image of the tiles in the map to replace with another tile.
-* **tile**: the image of the tile to replace the previous tiles with.
+* **from**: la imagen de las teselas que se reemplazan.
+* **to**: la imagen de la tesela nueva.
 
-## Example
+## Ejemplo
 
-Set a checkerboard tilemap with brown and white tiles into the game scene. When button `A` is pressed, switch the white tiles with the brown tiles.
+Pon en la escena un mapa de teselas con un tablero de ajedrez de teselas marrones y blancas. Al presionar el botón `A`, cambia las teselas blancas por las marrones.
 
 ```blocks
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {

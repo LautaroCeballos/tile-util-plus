@@ -1,18 +1,18 @@
-# current Tilemap
+# mapa de teselas actual
 
-Get the current tilemap set for the game scene.
+Obtiene el mapa de teselas que está puesto en la escena.
 
 ```sig
 tileUtil.currentTilemap()
 ```
 
-## Returns
+## Devuelve
 
-* The tilemap currently set for the game scene.
+* el mapa de teselas que está actualmente en la escena.
 
-## Example
+## Ejemplo
 
-Set a checkerboard tilemap into the game scene. Save a copy of the current tilemap and then set all the tiles in the current tilemap to transparent. Reset the old tilemap to the scene when button `A` is pressed.
+Pon un mapa de teselas con un tablero de ajedrez en la escena. Guarda una copia del mapa actual y luego pon todas sus teselas en transparente. Al presionar el botón `A`, vuelve a poner el mapa original en la escena.
 
 ```blocks
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {

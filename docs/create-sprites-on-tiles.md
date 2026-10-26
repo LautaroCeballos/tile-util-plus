@@ -1,20 +1,20 @@
-# create Sprites On Tiles
+# crear sprites en las teselas
 
-Create sprites with a given image and place them on tiles of a certain kind.
+Crea sprites con una imagen y un tipo, y colócalos en las teselas de un tipo determinado.
 
 ```sig
 tileUtil.createSpritesOnTiles(null, null)
 ```
 
-## Parameters
+## Parámetros
 
-* **tileKind**: the image of the tile kind to place the sprites on.
-* **spriteImage**: the image to set for the sprite.
-* **spriteKind**: the kind to set for the sprite, like **player** or **food**.
+* **tileKind**: la imagen de las teselas donde se colocan los sprites.
+* **spriteImage**: la imagen que se le pone al sprite.
+* **spriteKind**: el tipo del sprite, como **player** o **food**.
 
-## Example
+## Ejemplo
 
-Set a checkerboard tilemap with brown and white tiles into the game scene. When button `A` is pressed, put a rubber duck sprite on each white tile.
+Pon en la escena un mapa de teselas con un tablero de ajedrez de teselas marrones y blancas. Al presionar el botón `A`, pon un pato de goma en cada tesela blanca.
 
 ```blocks
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {

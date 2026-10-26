@@ -1,20 +1,20 @@
-# Tile is
+# la tesela es
 
-Checks the tile at a given location in a tilemap to see if it matches an image.
+Comprueba si la tesela de una posición del mapa coincide con una imagen.
 
 ```sig
 tileUtil.tileIs(null, null, null)
 ```
 
-## Parameters
+## Parámetros
 
-* **tilemap**: the tilemap to check the location in
-* **location**: the location to check
-* **tile**: the image of the tile to check for
+* **tilemap**: el mapa de teselas donde está la posición.
+* **location**: la posición que se comprueba.
+* **tile**: la imagen de la tesela que se busca.
 
-## Example
+## Ejemplo
 
-Set a checkerboard tilemap with brown and white tiles into the game scene. When button `A` is pressed, replaces all the tiles of one type with another.
+Pon en la escena un mapa de teselas con un tablero de ajedrez de teselas marrones y blancas. Al presionar el botón `A`, reemplaza todas las teselas de un tipo por otro.
 
 ```blocks
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {

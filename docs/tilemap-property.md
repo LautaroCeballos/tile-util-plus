@@ -1,28 +1,28 @@
-# tilemap Property
+# propiedad del mapa
 
-Retrieve a property for a given tilemap.
+Obtiene una propiedad del mapa de teselas.
 
 ```sig
-tileUtil.tilemapProperty(null, TilemapProperty.Rows)
+tileUtil.tilemapProperty(tileUtil.currentTilemap(), tileUtil.TilemapProperty.Rows)
 ```
 
-## Parameters
+## Parámetros
 
-* **data**: the tilemap to get a property for.
-* **prop**: the property to retrieve from the tilemap:
->* `number of colunms`: the number of tile columns in the tilemap
->* `number of rows`: the number of tile rows in the tilemap
->* `height`: height in pixels of the tilemap
->* `width`: width in pixels of the tilemap
->* `tile width`: the width in pixels of each tile location
+* **data**: el mapa de teselas del que se lee la propiedad.
+* **prop**: la propiedad que se quiere leer:
+>* `número de columnas`: la cantidad de columnas de teselas del mapa
+>* `número de filas`: la cantidad de filas de teselas del mapa
+>* `alto`: alto en píxeles del mapa
+>* `ancho`: ancho en píxeles del mapa
+>* `ancho de tesela`: el ancho en píxeles de cada tesela
 
-## Returns
+## Devuelve
 
-* a [number](/types/number) that is the value of the requested property.
+* un [número](/types/number) con el valor de la propiedad pedida.
 
-## Example
+## Ejemplo
 
-Set a tilemap with `10` rows into the scene. Get the `number of rows` property for the tilemap and display it as the game splash message.
+Pon en la escena un mapa de teselas de `10` filas. Lee la propiedad `número de filas` del mapa y muéstrala en el mensaje de inicio del juego.
 
 ```blocks
 tiles.setCurrentTilemap(tilemap`level1`)

@@ -1,22 +1,22 @@
-# connection Kind
+# tipo de conexión
 
-Get a connection identifier for a connection kind value.
+Obtiene un identificador de conexión a partir de un tipo de conexión.
 
 ```sig
 tileUtil._connectionKind(MapConnectionKind.Door1)
 ```
 
-## Parameters
+## Parámetros
 
-* **kind**: a selected connection kind value, such as: `Door1` or `Door2`.
+* **kind**: un tipo de conexión, como `Door1` o `Door2`.
 
-## Returns
+## Devuelve
 
-* a connection identfier for a selected **kind** value.
+* el identificador de conexión del valor de **kind** indicado.
 
-## Example
+## Ejemplo
 
-Create 3 different tilemaps. Connect the 3 tilemaps with 2 connections. Inside a game loop, switch the current tilemap every second to a different one using the connection identifiers from the connection kind values.
+Crea 3 mapas de teselas distintos. Conéctalos con 2 conexiones. Dentro de un bucle, cambia el mapa actual cada segundo usando los identificadores de cada tipo de conexión.
 
 ```blocks
 let nextMap = 0

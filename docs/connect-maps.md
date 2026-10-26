@@ -1,22 +1,22 @@
-# connect Maps
+# conectar
 
-Connect two tilemaps and associate them with a connection identifier.
+Conecta dos mapas de teselas y asócialos con un identificador de conexión.
 
 ```sig
 tileUtil.connectMaps(null, null, MapConnectionKind.Door1)
 ```
 
-As an easy way to make scene transitions, you can connect two tilemaps together. The connection is assigned an identifier which you use to load one tilemap that is connected to the current tilemap. This way your program doesn't need to recall which tilemap is needed for the scene transition. All you need is the connection identifier you've assigned for the change of one tilemap to the other. You can create or use a named identifier, such as `Door1`, `Door2`, `CliffEdge`, or `EscapeHatch`.
+Para hacer transiciones de escena fácilmente, puedes conectar dos mapas de teselas. A la conexión se le asigna un identificador que después usas para cargar el mapa conectado al mapa actual. Así tu programa no necesita recordar qué mapa hace falta para cada transición: basta con el identificador que asignaste. Puedes usar un identificador con nombre, como `Door1`, `Door2`, `CliffEdge` o `EscapeHatch`.
 
-## Parameters
+## Parámetros
 
-* **mapA**: the first tilemap to connect.
-* **mapB**: the second tilemap to connect.
-* **connectionId**: the identifer for the tilemap connection, like: `Door1` or `Door2`.
+* **mapA**: el primer mapa de teselas que se conecta.
+* **mapB**: el segundo mapa de teselas que se conecta.
+* **connectionId**: el identificador de la conexión, como `Door1` o `Door2`.
 
-## Example
+## Ejemplo
 
-Create 3 different tilemaps. Connect the 3 tilemaps with 2 connections. Use buttons `A` and `B` to load the connected tilemaps for each connection identifier.
+Crea 3 mapas de teselas distintos. Conéctalos con 2 conexiones. Usa los botones `A` y `B` para cargar los mapas conectados según el identificador de conexión.
 
 ```blocks
 controller.B.onEvent(ControllerButtonEvent.Pressed, function () {

@@ -1,19 +1,19 @@
-# Tile is Wall
+# tesela es pared
 
-Checks the tile at a given location in a tilemap to see if it is a wall
+Comprueba si la tesela de una posición del mapa es una pared.
 
 ```sig
 tileUtil.tileIsWall(null, null)
 ```
 
-## Parameters
+## Parámetros
 
-* **tilemap**: the tilemap to check the location in
-* **location**: the location to check
+* **tilemap**: el mapa de teselas donde está la posición.
+* **location**: la posición que se comprueba.
 
-## Example
+## Ejemplo
 
-This example inverts all of the walls in tilemap when `A` is pressed
+Este ejemplo invierte todas las paredes del mapa al presionar `A`.
 
 ```blocks
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {

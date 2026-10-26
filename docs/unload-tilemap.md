@@ -1,14 +1,14 @@
-# unload Tilemap
+# descargar mapa de teselas
 
-Remove the current tilemap from the game scene.
+Quita el mapa de teselas actual de la escena.
 
 ```sig
 tileUtil.unloadTilemap()
 ```
 
-## Example
+## Ejemplo
 
-Set a checkerboard tilemap into the game scene. Unload the tilemap from the scene when button `A` is pressed.
+Pon un mapa de teselas con un tablero de ajedrez en la escena. Descarga el mapa al presionar el botón `A`.
 
 ```blocks
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
