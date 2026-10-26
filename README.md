@@ -10,7 +10,7 @@ El pathfinding está basado en [jwunderl/arcade-tilemap-a-star](https://github.c
 
 1. Abre [https://arcade.makecode.com](https://arcade.makecode.com) y crea un proyecto nuevo.
 2. Haz clic en el engranaje ⚙️ → **Extensiones**.
-3. Pega la URL de este repositorio y presiona **Importar**.
+3. Pega `https://github.com/LautaroCeballos/tile-util-plus` y presiona **Importar**.
 
 También puedes probarla desde el editor de MakeCode con **Importar → Importar URL**.
 
