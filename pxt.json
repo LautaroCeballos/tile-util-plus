@@ -1,7 +1,7 @@
 {
     "name": "tile-util-plus",
-    "version": "1.1.0",
-    "description": "Bloques de Tile Util para Arcade con una subcategoría de pathfinding: un sprite persigue a otro por el mapa de teselas.",
+    "version": "1.1.1",
+    "description": "Tile Util+ para Arcade: bloques de Tile Util con una subcategoría de pathfinding donde un sprite persigue a otro por el mapa de teselas.",
     "license": "MIT",
     "icon": "icon.png",
     "dependencies": {

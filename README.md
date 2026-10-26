@@ -1,4 +1,4 @@
-# Tile Util Plus
+# Tile Util+
 
 Extensión para **MakeCode Arcade** basada en [microsoft/arcade-tile-util](https://github.com/microsoft/arcade-tile-util)
 que agrega una subcategoría **Seguidor de Caminos** con bloques de *pathfinding* (A\*),

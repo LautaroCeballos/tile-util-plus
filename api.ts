@@ -19,7 +19,7 @@ namespace MapConnectionKind {
 }
 
 //% color=#879bff icon="\uf279"
-//% block="Tile Util"
+//% block="Tile Util+"
 //% groups='["Mapas de teselas", "Teselas", "Eventos", "Conexiones", "Cámara", "Seguidor de Caminos"]'
 namespace tileUtil {
     export enum TilemapProperty {
