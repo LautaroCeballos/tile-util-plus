@@ -1,0 +1,29 @@
+{
+    "name": "tile-util-plus",
+    "version": "1.0.0",
+    "description": "Bloques de Tile Util para Arcade con una subcategoría de pathfinding: un sprite persigue a otro por el mapa de teselas.",
+    "license": "MIT",
+    "icon": "icon.png",
+    "dependencies": {
+        "device": "*"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "state.ts",
+        "api.ts",
+        "tiles.util.jres",
+        "tiles.util.ts",
+        "a-star.ts",
+        "path-following.ts",
+        "follower.ts",
+        "icon.png"
+    ],
+    "testFiles": [],
+    "public": true,
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}
